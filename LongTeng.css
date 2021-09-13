@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 龍騰文化NAV背景設定 */
+
+.LongTengNav {
+    width: 100%;
+    height: 70px;
+    background: radial-gradient(circle farthest-corner at left, #970B31, #DC007A, #C60F28, #E5001E, #E83819, #ED6A02, #F5A200, #E8B000);
+    z-index: 99;
+    position: absolute;
+    top: 0;
+}
+
+/* 龍騰文化NAV文字 */
+
+.LongTengNavText {
+    position: absolute;
+    width: 90%;
+    justify-content: center;
+    margin: 0 5%;
+    margin-top: 40px;
+    background-color: white;
+    border: 0.01px inset rgb(235, 223, 223, 0.5);
+    border-radius: 50px;
+    z-index: 100;
+}
+
+/*  龍騰文化NAV左邊LOGO */
+
+.LongTengNavTextLogo {
+    float: left;
+    margin-left: 2%;
+    font-size: 22px;
+    height: 52px;
+    width: 138px;
+    line-height: 52px;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.LongTengNavTextLogo:hover {
+    font-size: 23px;
+}
+
+/* 右邊龍騰文化的活動選項 */
+
+.LongTengNavOptionDiv {
+    display: flex;
+    float: right;
+    width: 740px;
+    height: 52px;
+    line-height: 52px;
+    z-index: 99;
+}
+
+/* 右邊龍騰文化的活動選項中h6 */
+
+.LongTengNavOption {
+    width: 160px;
+    height: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.LongTengNavOption:hover {
+    font-weight: 800;
+    font-size: 16.5px;
+    text-shadow: 0.01em 0em gray;
+    color: #448899;
+}
+
+.CirclesDiv {
+    position: absolute;
+    width: 100%;
+    height: 1150px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* 素養探究成果大賞文字招牌%大圈圈們 */
+.LongTengTitleAndCircles {
+    height: 1150px;
+    overflow: hidden;
+}
+
+/* 素養探究成果大賞文字招牌 */
+
+.resultsTitle {
+    margin: 0 29%;
+    justify-content: center;
+    margin-top: 7%;
+    width: 900px;
+    height: 400px;
+    background-color: rgba(230, 157, 189, 0.6);
+    border-radius: 100px;
+}
+
+/* 素養探究成果大賞文字招牌 報名中字樣 */
+
+.SigningUp {
+    position: absolute;
+    justify-content: center;
+    height: 46px;
+    margin: 0 10%;
+    margin-top: -25px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 2000;
+}
+
+/* 第二屆龍騰標籤 */
+
+.SecondLongTeng {
+    position: absolute;
+    text-align: center;
+    width: 237px;
+    margin: 10% 0;
+    margin-left: -60px;
+}
+
+/* 素養探究成果大賞 */
+
+.GroupLongTeng {
+    position: absolute;
+    margin-left: 150px;
+}
+
+/* 普技高 */
+
+.HighSchoolLongTeng {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 75px;
+}
+
+.SecondLongTeng img {
+    width: 250px;
+}
+
+/* 藍色與黃色球的圖形大小 */
+
+.colorBall {
+    width: 1300px;
+}
+
+/* 藍色圓形 */
+
+.blueRoundShape {
+    position: absolute;
+    margin-left: -20%;
+    margin-top: -25%;
+    opacity: 0.5;
+    width: 800px;
+}
+
+/* 黃色圓形 */
+
+.yellowRoundShape {
+    position: absolute;
+    margin-top: 17%;
+    opacity: 0.4;
+    right: 0;
+    width: 800px;
+    overflow: hidden;
+}
+
+/* 報名日期區塊 */
+
+.RegistrationDate {
+    position: absolute;
+    margin-top: 75%;
+    right: 0;
+    width: 632px;
+    margin-right: 5%;
+}
+
+/* 主辦單位圖片 */
+
+.Organizer {
+    float: right;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+/* 彩虹球 */
+
+.RainbowBall {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: -30%;
+    opacity: 0.5;
+    z-index: 9;
+    /* transform: rotate(3deg); */
+}
+
+.resultsTitleAndPeople {
+    margin-top: 10%;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+}
+
+/* 大人偶 */
+
+.bigLongTengPuppet {
+    margin-top: -250px;
+    margin-left: 5%;
+    z-index: 101;
+    height: 680px;
+    overflow: hidden;
+}
+
+/* 最新消息藍色大背景 */
+
+.NewsBlueBackground {
+    width: 100%;
+    margin-top: -40px;
+    background: radial-gradient(circle farthest-corner at left, #003067, #005A91, #083552);
+}
+
+/* 入圍新消息 */
+
+.ShortlistedNews {
+    width: 90%;
+    background-color: #FFF;
+    margin: 41px auto;
+    z-index: 150;
+    border-radius: 15px;
+}
+
+.NewsHr {
+    margin-top: 100px;
+    width: 90%;
+    position: absolute;
+}
+
+/* 入圍新消息的橫線 */
+
+.ShortlistedNews hr {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 95%;
+    color: black;
+    height: 1px;
+}
+
+/* 入圍最新消息 */
+
+.ShortlistedNewsRedText {
+    width: 199px;
+    height: 55px;
+    margin-left: 2.5%;
+}
+
+/* 入圍名單Banner區塊 */
+
+.PinkBackGroundDiv {
+    display: flex;
+    margin: 0 auto;
+}
+
+/* 入圍名單背景圖示 */
+
+.PinkBackGround {
+    height: 100%;
+    margin: 0 auto;
+    background: radial-gradient(circle farthest-corner at bottom, #E69DBD, #d89fca, #e7b9e1);
+    height: 780px;
+    padding-top: 279px;
+}
+
+/* 活動緣起 */
+
+.ActivityOrigin {
+    width: 80%;
+    height: 723px;
+    margin: 0 5%;
+    z-index: 200;
+}
+
+/* 活動緣起的標題區塊 */
+
+.ActivityOriginHr {
+    margin-top: 100px;
+    width: 90%;
+}
+
+/* 活動緣起的輪播圖區塊 */
+
+.ActivityOriginCarousel {
+    margin: 0 2.5%;
+    margin-top: 50px;
+}
+
+/* 活動緣起的標題 */
+
+.ActivityOriginHrRedText {
+    width: 199px;
+    height: 55px;
+    margin-left: 2.5%;
+}
+
+/* 活動緣起的圖片與文字區塊 */
+
+.ActivityOriginCarousel {
+    display: flex;
+}
+
+/* 活動緣起的圖片格式 */
+
+.ActivityOriginCarouselImg {
+    margin-right: 100px;
+}
+
+/* 活動緣起的輪播控制dots */
+
+.ActivityOriginCarouselDots {
+    height: 15px;
+    line-height: 15px;
+    display: flex;
+    float: right;
+}
+
+.ActivityOriginCarouselDots img {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* 活動緣起的文字格式 */
+
+.ActivityOriginCarouselText {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin-bottom: 30px;
+    margin-top: 90px;
+    text-shadow: 0.02em 0.01em gray;
+}
+
+/* 活動時程 */
+
+.LongTengActivitySchedule {
+    background-image: url(/LongTeng/img/活動時程背景.png);
+    z-index: 200;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+/* 活動時程排成活動 */
+
+.LongTengActivityScheduleSchedule {
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0 35%;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.LongTengActivityScheduleSchedule hr {
+    border: 12px white solid;
+    height: 1600px;
+}
+
+/* 報名的4個照片 */
+.ActivityScheduleRight {
+    margin-top: 300px;
+    position: absolute;
+    right: 0;
+}
+
+.ActivityScheduleRight img {
+    margin-bottom: 200px;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+.ActivityScheduleLeft {
+    margin-top: 500px;
+    position: absolute;
+    left: 0;
+}
+
+.ActivityScheduleLeft img {
+    margin-bottom: 200px;
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+
+/* 活動時程背景粉紅色柱子區塊 */
+
+.PinkPillar {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    justify-content: center;
+}
+
+/* 活動時程背景粉紅色柱子們 */
+
+.PinkPillars {
+    width: 170px;
+    height: 1550px;
+    background: radial-gradient(circle farthest-corner at bottom, #E69DBD, #d89fca, #e7b9e1);
+    margin: 0 30px;
+    margin-top: 3%;
+    opacity: 0.1;
+}
+
+/* 活動時程標題 */
+
+.ActivityScheduleHr {
+    width: 199px;
+    height: 55px;
+    margin-left: 7%;
+    margin-top: 10%;
+    z-index: 150;
+    position: absolute;
+}
+
+/* 頁尾 */
+
+.LongFooter {
+    width: 90%;
+    overflow: hidden;
+    bottom: 0;
+}
