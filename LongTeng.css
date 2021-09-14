@@ -28,6 +28,13 @@
     z-index: 100;
 }
 
+@media(max-width:800px) {
+    .LongTengNavText {
+        padding-top: 20px;
+        height: 60px;
+    }
+}
+
 /*  龍騰文化NAV左邊LOGO */
 
 .LongTengNavTextLogo {
@@ -56,6 +63,23 @@
     z-index: 99;
 }
 
+/* 漢堡圖設定 */
+.LongTengNavMenu {
+    cursor: pointer;
+    position: relative;
+    display: none;
+}
+
+@media(max-width:800px) {
+    .LongTengNavMenu {
+        display: block;
+        right: 0;
+        float: right;
+        margin-right: 5%;
+    }
+}
+
+
 /* 右邊龍騰文化的活動選項中h6 */
 
 .LongTengNavOption {
@@ -64,6 +88,12 @@
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
+}
+
+@media(max-width:800px) {
+    .LongTengNavOption {
+        display: none;
+    }
 }
 
 .LongTengNavOption:hover {
@@ -191,7 +221,7 @@
 .RainbowBall {
     position: absolute;
     margin-top: 7%;
-    margin-left: -30%;
+    margin-left: -50%;
     opacity: 0.5;
     z-index: 9;
     /* transform: rotate(3deg); */
@@ -372,30 +402,27 @@
 /* 報名的4個照片 */
 .ActivityScheduleRight {
     margin-top: 300px;
-    position: absolute;
     right: 0;
 }
 
 .ActivityScheduleRight img {
     margin-bottom: 200px;
-    position: absolute;
     right: 0;
-    display: none;
 }
 
 .ActivityScheduleLeft {
     margin-top: 500px;
-    position: absolute;
     left: 0;
 }
 
 .ActivityScheduleLeft img {
     margin-bottom: 200px;
-    position: absolute;
     left: 0;
-    display: none;
 }
 
+.LongTengActivityScheduleSOP4 {
+    display: none;
+}
 
 /* 活動時程背景粉紅色柱子區塊 */
 
@@ -436,4 +463,12 @@
     width: 90%;
     overflow: hidden;
     bottom: 0;
+}
+
+.LongFooterPC {
+    display: block;
+}
+
+.LongFooterPH {
+    display: none;
 }
